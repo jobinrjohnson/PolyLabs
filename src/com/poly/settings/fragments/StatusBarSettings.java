@@ -35,6 +35,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.COLT;
+        return MetricsEvent.POLY;
     }
 }
