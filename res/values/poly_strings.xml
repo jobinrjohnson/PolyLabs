@@ -17,6 +17,12 @@
    <!--Categories-->
    <string name="colt_interface">PolyOS Laboratories</string>
    
+   <!--Custom settings dashboard header -->
+   <string name="header_category_custom">Mad Science!</string>
+   
+   <!--PolyLabs header summary  -->
+   <string name="poly_settings_summary">Cause a customisation reaction!</string>
+   
    <!-- Lockscreen Fragment -->
    <string name="lockscreen_settings_title">Lockscreen</string>
    
