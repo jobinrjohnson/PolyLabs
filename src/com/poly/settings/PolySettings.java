@@ -34,6 +34,6 @@ public class PolySettings extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.POLY;
+        return 420;
     }
 }
