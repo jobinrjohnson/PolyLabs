@@ -23,7 +23,7 @@ import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class ColtSettings extends SettingsPreferenceFragment {
+public class PolySettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
