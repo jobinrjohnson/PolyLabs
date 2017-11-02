@@ -20,15 +20,24 @@
     	      android:key="poly_interface"
               android:title="@string/poly_interface">
 		
+	<!-- Statusbar settings -->	
 	<PreferenceScreen
               android:fragment="com.poly.settings.fragments.StatusBarSettings"
               android:key="poly_statusbar_settings"
               android:title="@string/statusbar_settings_title"/>
- 
+		
+ 	<!-- Lockscreen settings -->
  	<PreferenceScreen
               android:fragment="com.poly.settings.fragments.LockScreenSettings"
               android:key="poly_lockscreen_settings"
               android:title="@string/lockscreen_settings_title"/>
+		
+ 	<!-- Blur UI -->
+ 	<PreferenceScreen
+             android:fragment="com.poly.settings.fragments.BlurPersonalizations"
+             android:key="blur_personalization"
+             android:title="@string/settings_blur_cat"
+             android:icon="@drawable/ic_poly_blur" />
  
      </PreferenceCategory>
 
