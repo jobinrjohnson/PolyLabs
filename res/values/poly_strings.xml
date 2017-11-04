@@ -62,6 +62,8 @@
     
     <!-- Quick Settings  -->
     <string name="quicksettings_title">Quick Settings</string>
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
  
    <!-- Status Bar fragment -->  
   <string name="statusbar_settings_title">Status bar</string>
