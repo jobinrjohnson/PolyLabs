@@ -4,6 +4,9 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+<PreferenceCategory
+	android:title="@string/qs_tiles_category">
+
 <com.poly.settings.preferences.SystemSettingSwitchPreference
         android:key="quick_settings_vibrate"
         android:title="@string/quick_settings_vibrate_title"
@@ -11,11 +14,38 @@
 	android:defaultValue="false"/>
 
 <com.poly.settings.preferences.CustomSeekBarPreference
-android:key="sysui_qqs_count_key"
+	android:key="sysui_qqs_count_key"
 	android:title="@string/sysui_qqs_count_title"
 	android:max="7"
 	settings:min="1"
 	settings:units=""
 	android:persistent="false" />
+
+<com.poly.settings.preferences.CustomSeekBarPreference
+            android:key="qs_rows_portrait"
+            android:title="@string/qs_rows_portrait_title"
+            android:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
+
+<com.poly.settings.preferences.CustomSeekBarPreference
+            android:key="qs_rows_landscape"
+            android:title="@string/qs_rows_landscape_title"
+            android:max="3"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
+
+<com.poly.settings.preferences.CustomSeekBarPreference
+            android:key="qs_columns"
+            android:title="@string/qs_columns_title"
+            android:max="10"
+            settings:min="1"
+            settings:units=""
+	    android:persistent="false" />
+
+</PreferenceCategory>
+
 
 </PreferenceScreen>
