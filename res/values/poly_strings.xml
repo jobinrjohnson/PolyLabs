@@ -59,7 +59,10 @@
     <!-- Lockscreen tap-to sleep -->
     <string name="double_tap_sleep_anywhere_title">Tap to sleep</string>
     <string name="double_tap_sleep_anywhere_summary">Double-tap anywhere on the lockscreen to put device to sleep</string>
-     
+    
+    <!-- Quick Settings  -->
+    <string name="quicksettings_title">Quick Settings</string>
+ 
    <!-- Status Bar fragment -->  
   <string name="statusbar_settings_title">Status bar</string>
  </resources>

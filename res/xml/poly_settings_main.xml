@@ -19,17 +19,22 @@
 	<PreferenceCategory
     	      android:key="poly_interface"
               android:title="@string/poly_interface">
-		
-	<PreferenceScreen
+
+	  <PreferenceScreen
               android:fragment="com.poly.settings.fragments.StatusBarSettings"
               android:key="poly_statusbar_settings"
               android:title="@string/statusbar_settings_title"/>
  
- 	<PreferenceScreen
+   	<PreferenceScreen
               android:fragment="com.poly.settings.fragments.LockScreenSettings"
               android:key="poly_lockscreen_settings"
               android:title="@string/lockscreen_settings_title"/>
- 
+	
+	<PreferenceScreen
+	      android:key="quicksettings_category"
+	      android:title="@string/quicksettings_title"
+	      android:fragment="com.poly.settings.fragments.QuickSettings"
+	
      </PreferenceCategory>
 
 	
