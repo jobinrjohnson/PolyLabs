@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+	<?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/quicksettings_title"
@@ -9,5 +9,13 @@
         android:title="@string/quick_settings_vibrate_title"
         android:summary="@string/quick_settings_vibrate_summary"
 	android:defaultValue="false"/>
+
+<com.poly.settings.preferences.CustomSeekBarPreference
+android:key="sysui_qqs_count_key"
+	android:title="@string/sysui_qqs_count_title"
+	android:max="7"
+	settings:min="1"
+	settings:units=""
+	android:persistent="false" />
 
 </PreferenceScreen>

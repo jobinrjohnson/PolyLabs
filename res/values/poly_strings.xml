@@ -15,7 +15,7 @@
  -->
  <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
    <!--Categories-->
-   <string name="poly_interface">PolyOS Laboratories</string>
+   <string name="poly_interface">PolyLabs</string>
    
    <!--Custom settings dashboard header -->
    <string name="header_category_custom">Mad Science!</string>
@@ -64,7 +64,9 @@
     <string name="quicksettings_title">Quick Settings</string>
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
- 
+    <string name="sysui_qqs_count_title">Small QS tiles</string> 
+
+
    <!-- Status Bar fragment -->  
   <string name="statusbar_settings_title">Status bar</string>
  </resources>
