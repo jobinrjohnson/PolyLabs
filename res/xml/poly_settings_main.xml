@@ -33,7 +33,7 @@
 	<PreferenceScreen
 	      android:key="quicksettings_category"
 	      android:title="@string/quicksettings_title"
-	      android:fragment="com.poly.settings.fragments.QuickSettings"
+	      android:fragment="com.poly.settings.fragments.QuickSettings"/>
 	
      </PreferenceCategory>
 
