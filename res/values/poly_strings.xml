@@ -84,8 +84,10 @@
     <string name="status_bar_carrier_color">Carrier label color</string>
     <string name="status_bar_carrier_size">Carrier label text size</string>
 
-   <!-- Status Bar fragment -->  
-  <string name="statusbar_settings_title">Status bar</string>
+    <!-- Status Bar fragment -->  
+    <string name="statusbar_settings_title">Status bar</string>
+    <string name="statusbar_settings_volume_control">Default volume control</string>
+    <string name="statusbar_settings_volume_control_dialog_msg">What to change when pressing hardware volume buttons.</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

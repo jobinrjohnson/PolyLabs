@@ -82,5 +82,18 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+  
+  
+    <string-array name="default_volume_control" translatable="false">
+        <item>Ring Volume</item>
+        <item>Media Volume</item>
+        <item>Alarm Volume</item>
+    </string-array>
+  
+    <string-array name="default_volume_control_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
 </resources>

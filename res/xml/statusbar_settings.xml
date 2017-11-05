@@ -23,5 +23,12 @@
         android:title="@string/custom_carrier_title"
         android:summary="@string/custom_carrier_summary"
         android:fragment="com.poly.settings.fragments.CarrierLabel" />
+  
+<ListPreference
+        android:key="default_volume_category"
+        android:title="@string/statusbar_settings_volume_control"
+        android:dialogTitle="@string/statusbar_settings_volume_control_dialog_msg"
+        android:entries="@array/default_volume_control"
+        android:entryValues="@array/default_volume_control_values" />
      
 </PreferenceScreen>
